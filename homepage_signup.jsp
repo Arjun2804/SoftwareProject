@@ -180,7 +180,7 @@ button:hover {
 </script>
 <body>
 
-<form name="myform" action="Test.jsp" style="border:100px solid #ccc" onsubmit="return validateform()">
+<form name="myform" action="Test.jsp" method="POST" style="border:100px solid #ccc" onsubmit="return validateform()">
   <div class="container">
     <h1>Sign Up</h1>
     <p>Please fill in this form to create an account.</p>
