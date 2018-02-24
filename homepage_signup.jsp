@@ -187,7 +187,7 @@ button:hover {
     <hr>
 
     <label for="fname"><b>First Name</b></label>
-      <input type="text" placeholder="Enter First Name" name="fname" required>
+      <input type="text" placeholder="Enter First Name" name="fname" required autofocus>
       
       <label for="lname"><b>Last Name</b></label>
       <input type="text" placeholder="Enter Last Name" name="lname" >
