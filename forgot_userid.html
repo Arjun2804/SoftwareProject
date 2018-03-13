@@ -30,38 +30,26 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
         var mob = document.myform.mno.value;
         var date = document.myform.dob.value;
         var card = document.myform.pan.value;
-		var phoneno = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
-        if( mob.length != 10)
-        {
-            alert("Please Enter a Valid mobile Number ");
-            return false;
-        }
-        if( card.length != 10)
-        {
-            alert("Please Enter a Valid PAN Card Number ");
-            return false;
-        }
-
-		 if(mob.match(phoneno))
-        {
-          return true;
-        }
-      else
-        {
-        alert("Please Enter a Valid Mobile Number ");
-        return false;
+        
+		if (/^\d{10}$/.test(mob)) {
+    // value is ok, use it
+		} 
+		else 
+		{
+    		alert("Please Enter a Valid Mobile Number");
+    		return false;
 		}
 
-		if(card.match(phoneno))
-        {
-          return true;
-        }
-      else
-        {
-        alert("Please Enter a Valid Pan Card Number ");
-        return false;
+		var regpan = /^([a-zA-Z]){5}([0-9]){4}([a-zA-Z]){1}?$/;
+		if(regpan.test(card))
+		{
+   // valid pan card number
 		}
-
+		else 
+		{
+			alert("Please Enter a Valid PAN Card Number ");
+            return false;
+		}
 
     }
 </script>
@@ -94,12 +82,12 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				<div class="banner-slider">
 				<div class="container">
 					<form class="sign-up" method="POST" name="myform" onsubmit="return validate()">
-						<h1 class="sign-up-title">Forgot UserID</h1>
-						<input type="text" class="sign-up-input" name="mno" placeholder="Enter registered mobile number" autofocus required>
-                                                <br>	<input type="date" class="sign-up-input" name="dob" placeholder="Enter D.O.B "autofocus required>
+						<h1 class="sign-up-title">Forgot User ID</h1>
+						<input type="text" class="sign-up-input" name="mno" placeholder="Enter 10-digit registered mobile number" autofocus required>
+                                        <h4>DOB:</h4>        <br>	<input type="date" class="sign-up-input" name="dob" placeholder="Enter D.O.B "autofocus required>
                                                  <br>	<input type="text" class="sign-up-input" name="pan" placeholder="Enter PAN card number "autofocus required>
 				
-					<br><br>	<a href="http://ksba.com/signin"><input type="submit" value="SUBMIT" class="sign-up-button"></a>
+					<br>	<a href="http://ksba.com/signin"><input type="submit" value="NEXT" class="sign-up-button"></a>
 					
 					  </form>	
 				<div class="callbacks_container">
