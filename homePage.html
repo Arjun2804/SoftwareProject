@@ -1,0 +1,568 @@
+
+<!DOCTYPE HTML>
+<html lang="zxx">
+<head>
+<title>KSBA BANKING </title>
+<!-- Meta tag Keywords -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="KSBA Banking Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script>
+    function validate()
+    {
+        var pass = document.myform.psw.value;
+        var pp = /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{6,16}$/;
+        if(!pp.test(pass) || pass.length < 6)
+        {
+            alert("Please Enter a Valid Password ");
+            return false;
+        }
+
+    }
+</script>
+<!--// Meta tag Keywords -->
+<!-- css files -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" /> <!-- Bootstrap-Core-CSS -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" /> <!-- Style-CSS --> 
+<link rel="stylesheet" href="css/font-awesome.css"> <!-- Font-Awesome-Icons-CSS -->
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="all" /> <!-- Banner-Slider-CSS -->
+<!-- //css files -->
+<link rel="stylesheet" type="text/css" href="css/demo.css"/>
+<link rel="stylesheet" type="text/css" href="css/form.css"/>
+<!-- online-fonts -->
+<link href="//fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800&amp;subset=latin-ext" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Ubuntu+Condensed&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext" rel="stylesheet">
+<!-- //online-fonts -->
+</head>
+<body>
+
+<!-- navigation -->
+<div class="nav-links">	
+		<div class="header-w3l">
+			<div class="container">
+				<a class="navbar-brand" href="index.html"><h1><span>KSBA</span> Banking</h1></a>
+				<div class="call-w3l">
+					<img src="images/rsz_call.png">
+				</div>	
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<nav class="navbar navbar-inverse">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				</button>
+			</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<div class="w3l-nav">
+				<ul class="nav navbar-nav link-effect">
+					<li class="active"><a href="index.html">Home</a></li>
+				
+					<li><a href="#about" class="scroll">About Us</a></li>
+					<li><a href="#services" class="scroll">Our Services</a></li>
+					<li><a href="#team" class="scroll">Team</a></li>
+					<li><a href="#gallery" class="scroll">Gallery</a></li>	
+					<li><a href="#contact" class="scroll">Contact Us</a></li>
+				</ul>
+                            <a class="w3l-cont scroll" href="#contact">NetBanking Login</a>
+			</div>
+		</div>
+	</nav>
+	<div class="codecon_half">
+				<div class="expSearchBox">
+					
+				</div>
+			</div>
+			<div class="clearfix"></div>
+</div>
+<!-- //navigation -->
+<!-- banner section -->
+<div class="banner-slider">
+				
+				<!-- //Slider -->
+
+				</div>
+</div>
+<!-- Modal1 -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+	<div class="modal-dialog">
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<img src="images/g7.jpg" alt=" " class="img-responsive">
+					<h5>Donec lobortis pharetra dolor</h5>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, rds which don't look even slightly believable..</p>
+			</div>
+		</div>
+		<!-- //Modal content-->
+	</div>
+</div>
+<!-- //Modal1 -->
+<!-- //banner section -->
+<!-- about -->
+<div class="about" id="about">
+	<div class="container">
+		<h3 class="w3l-title"><span>About</span> Us</h3>
+		<div class="w3-agileits-about-grids">
+			<div class="col-md-5 agile-about-right">
+				<img src="images/3.png" alt="" />
+			</div>
+			<div class="col-md-7 agile-about-left">
+				<h3 class="w3l-sub">Offering the most </h3>
+				<p class="sub-p">Competitive rates and fees</p>
+				<p class="sub-p2">KSBA Bank provides you with the latest Technology</p>
+				<p class="sub-p3">KSBA Bank is committed to provide a Superior Banking Experience.</p>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!-- //about -->
+<!-- wthree-slid -->
+	<div class="wthree-slid"> 
+		<div class="col-sm-6 col-xs-8 wthree-slid-right"> 
+			<h4>The best way to save your time and money</h4>
+			<p>Express bank will save your time, money and improve the way you manage your business finances. You will have the control you need, with multiple disbursement and payment options, along with many other cash management features to help you optimize your business cash flow</p>
+		<a class="w3l-cont scroll" href="#contact">Contact Us</a>
+		</div> 
+		<div class="col-sm-6 col-xs-4 wthree-slid-left"> 
+			 
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+	<!-- wthree-slid --> 
+<!-- services -->
+	<div class="services" id="services">
+		<div class="container">
+			<h3 class="w3l-title"><span>Our</span> Services</h3>
+			<div class="col-md-4 services-grids-1">
+				
+			</div>
+			<div class="col-md-4 services-grids">
+				<div class="wthree-services-grid">
+					<div class="wthree-services-icon">
+						<i class="fa fa-money" aria-hidden="true"></i>
+					</div>
+					<div class="wthree-services-info">
+						<h5>Free Online </h5>
+						<p>No Cost or Obligation </p>
+					</div>
+				</div>
+				<div class="wthree-services-grid w3l-agile">
+					<div class="wthree-services-icon">
+						<i class="fa fa-user" aria-hidden="true"></i>
+					</div>
+					<div class="wthree-services-info">
+						<h5>Accept All Major</h5>
+						<p>Banking All over the world </p>
+					</div>
+				</div>
+				<div class="wthree-services-grid">
+					<div class="wthree-services-icon">
+						<i class="fa fa-car" aria-hidden="true"></i>
+					</div>
+					<div class="wthree-services-info">
+						<h5>Sales & Trading</h5>
+						<p>The key Function of an Investment Bank. </p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 services-grids w3l-seco">
+				<div class="wthree-services-grid">
+					<div class="wthree-services-icon">
+						<i class="fa fa-cog" aria-hidden="true"></i>
+					</div>
+					<div class="wthree-services-info">
+						<h5>Fast Setup</h5>
+						<p>A new payment platform allowing instant payment. </p>
+					</div>
+				</div>
+				<div class="wthree-services-grid w3l-agile">
+					<div class="wthree-services-icon">
+						<i class="fa fa-signal" aria-hidden="true"></i>
+					</div>
+					<div class="wthree-services-info">
+						<h5>Financial Advisors</h5>
+						<p>A 24/7 Companion! </p>
+					</div>
+				</div>
+				<div class="wthree-services-grid">
+					<div class="wthree-services-icon">
+						<i class="fa fa-credit-card" aria-hidden="true"></i>
+					</div>
+					<div class="wthree-services-info">
+						<h5>Tax Consulting</h5>
+						<p>Ready to Redeem! </p>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!-- //services -->
+<!--stats-->
+<div data-vide-bg="video/coins">
+	<div class="stats center-container" id="stats">
+		<div class="container">
+			<div class="stats-info">
+				<div class="col-md-4 col-xs-4 stats-grid slideanim">
+					<i class="fa fa-user-o" aria-hidden="true"></i>
+					<div class="agile-one">
+						<h4 class="stats-info">Employees</h4>
+						<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='1000000000' data-delay='2' data-increment="3">12760</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-4 stats-grid slideanim">
+					<i class="fa fa-globe" aria-hidden="true"></i>
+					<div class="agile-one">
+						<h4 class="stats-info">Locations</h4>
+						<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='1276012760' data-delay='3' data-increment="1">12760</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-4 stats-grid slideanim">
+					<i class="fa fa-diamond" aria-hidden="true"></i>
+					<div class="agile-one">
+						<h4 class="stats-info">Awards Winning</h4>
+						<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='12760000000' data-delay='1' data-increment="2">12760</div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--//stats-->
+<!-- team -->
+	<div id="team" class="team agileits">
+		<div class="team-agileinfo">
+			<div class="container">  
+				<h3 class="w3l-title"><span>Our</span> Team</h3>
+				<div class="team-row agileits-w3layouts">
+					<div class="col-md-3 col-xs-6 team-grids">
+						<div class="team-agileimg">
+							<img class="img-responsive" src="images/IMG_20170721_122819.jpg" alt="">
+							<div class="captn">
+								<div class="captn-top">
+									<h4>Krishna Prasath </h4>
+									<p>Scrum Master</p>
+								</div> 
+								<div class="social-w3lsicon agileinfo-social-grids">
+									
+								</div> 
+							</div>
+						</div>
+					</div>
+							
+					
+					<div class="col-md-3 col-xs-6 team-grids">
+						<div class="team-agileimg">
+							<img class="img-responsive" src="images/IMG-20180221-WA0000.jpg" alt="">
+							<div class="captn">
+								<div class="captn-top">
+									<h4>Shriti Agarwal</h4>
+									<p>FrontEnd Developer</p>
+								</div>
+								<div class="social-w3lsicon agileinfo-social-grids">
+									
+								</div>
+							</div>
+						</div>
+					</div>	<div class="col-md-3 col-xs-6 team-grids">
+						<div class="team-agileimg">
+							<img class="img-responsive" src="images/IMG-20180220-WA0021.jpg" alt="">
+							<div class="captn">
+								<div class="captn-top">
+									<h4>Arjun Ramesh</h4>
+									<p>BackEnd Developer</p>
+								</div>
+								<div class="social-w3lsicon agileinfo-social-grids">
+									
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-xs-6 team-grids">
+						<div class="team-agileimg">
+							<img class="img-responsive" src="images/20180221_001004.png" alt="">
+							<div class="captn">
+								<div class="captn-top">
+									<h4>Ashwin</h4>
+									<p>FrontEnd Developer</p>
+								</div>
+								<div class="social-w3lsicon agileinfo-social-grids">
+									
+								</div> 
+							</div>
+						</div>
+					</div><br><br><br><br><br><br><br><br><br><br><br><br>
+					<div class="col-md-3 col-xs-6 team-grids">
+						<div class="team-agileimg">
+							<img class="img-responsive" src="images/20180221_001600.jpg" alt="">
+							<div class="captn">
+								<div class="captn-top">
+									<h4>Bala Athithan</h4>
+									<p>FrontEnd Developer</p>
+								</div>
+								<div class="social-w3lsicon agileinfo-social-grids">
+									
+								</div>
+							</div>
+						</div>
+					</div>		
+					
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //team -->   
+<!-- testimonials -->
+	<div class="testimonials">
+		
+	</div>
+	<!-- //testimonials -->
+ <!--/gallery-->
+ <div class="gallery" id="gallery">
+	<div class="container">
+		<h3 class="w3l-title"><span>Our</span> Gallery</h3>
+		<div class="agile_gallery_grids w3-agile">
+				<ul class="clearfix demo">
+					<li>
+						<div class="gallery-grid1">
+							<img src="images/g1.jpg" alt=" " class="img-responsive" />
+							<div class="p-mask">
+								<h4><span>KSBA</span> Banking</h4>
+								<p>A Smarter Inversment</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="gallery-grid1">
+							<img src="images/g2.jpg" alt=" " class="img-responsive" />
+							<div class="p-mask">
+								<h4><span>KSBA</span> Banking</h4>
+								<p>Easy Access</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="gallery-grid1">
+							<img src="images/g3.jpg" alt=" " class="img-responsive" />
+							<div class="p-mask">
+								<h4><span>KSBA</span> Banking</h4>
+								<p>Money Exchange</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="gallery-grid1">
+							<img src="images/g4.jpg" alt=" " class="img-responsive" />
+							<div class="p-mask">
+								<h4><span>KSBA</span> Banking</h4>
+								<p>24/7</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="gallery-grid1">
+							<img src="images/g5.jpg" alt=" " class="img-responsive" />
+							<div class="p-mask">
+								<h4><span>KSBA</span> Banking</h4>
+								<p>Easy Money</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="gallery-grid1">
+							<img src="images/g6.jpg" alt=" " class="img-responsive" />
+							<div class="p-mask">
+								<h4><span>KSBA</span> Banking</h4>
+								<p>Savings</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="gallery-grid1">
+							<img src="images/g7.jpg" alt=" " class="img-responsive" />
+							<div class="p-mask">
+								<h4><span>KSBA</span> Banking</h4>
+								<p>Future Savings</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="gallery-grid1">
+							<img src="images/g8.jpg" alt=" " class="img-responsive" />
+							<div class="p-mask">
+								<h4><span>KSBA</span> Banking</h4>
+								<p>Digital Money</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="gallery-grid1">
+							<img src="images/g9.jpg" alt=" " class="img-responsive" />
+							<div class="p-mask">
+								<h4><span>KSBA</span> Banking</h4>
+								<p>Trusted Investment</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+	</div>
+</div>
+<!--//gallery-->
+<!-- mail -->
+<div class="mail" id="contact">
+	<div class="container">
+		<h3 class="w3l-title"><span>Contact</span> Us</h3>
+		<div class="mail-w3l-agile">
+			<div class="col-md-6 col-sm-6 contact-left-w3ls">
+				<div class="w3l-cont-mk">
+					<img src="images/img2.jpg">
+				</div>
+				<h3>Contact Info</h3>
+				<div class="visit">
+					<div class="col-md-2 col-sm-2 col-xs-2 contact-icon-wthree">
+						<i class="fa fa-home" aria-hidden="true"></i>
+					</div>
+					<div class="col-md-10 col-sm-10 col-xs-10 contact-text-agileinf0">
+						<h4>Visit us</h4>
+						<p>Amrita School Of Engineering,Coimbatore</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="mail-w3">
+					<div class="col-md-2 col-sm-2 col-xs-2 contact-icon-wthree">
+						<i class="fa fa-envelope-o" aria-hidden="true"></i>
+					</div>
+					<div class="col-md-10 col-sm-10 col-xs-10 contact-text-agileinf0">
+						<h4>Mail us</h4>
+						<p><a href="mailto:info@example.com">ragavrao1998@gmail.com</a></p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="call">
+					<div class="col-md-2 col-sm-2 col-xs-2 contact-icon-wthree">
+						<i class="fa fa-phone" aria-hidden="true"></i>
+					</div>
+					<div class="col-md-10 col-sm-10 col-xs-10 contact-text-agileinf0">
+						<h4>Call us</h4>
+						<p>9994797583</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+
+<!-- //mail -->
+<!-- footer -->
+<div class="footer-bot">
+	<div class="container">
+		<div class="logo2">
+			<h2><a href="index.html"><span>KSBA</span> Banking</a></h2>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<div class="copy-right">
+	<div class="agileinfo_social_icons">
+		
+	</div>
+	<div class="container">
+		<p> &copy; 2018 Online Banking. All Rights Reserved | Design by  <a href="http://ksba.com/"> KSBA Group</a></p>
+	</div>
+</div>
+<!-- //footer -->
+
+<!-- js files -->
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script> <!-- Necessary-JavaScript-File-For-Bootstrap --> 
+<!-- //js -->
+<!-- js for banner -->
+<!-- responsiveslider -->
+	<script src="js/responsiveslides.min.js"></script>
+		<script>
+			// You can also use "$(window).load(function() {"
+			$(function () {
+			  // Slideshow 4
+			  $("#slider3").responsiveSlides({
+				auto: true,
+				pager:true,
+				nav:false,
+				speed: 500,
+				namespace: "callbacks",
+				before: function () {
+				  $('.events').append("<li>before event fired.</li>");
+				},
+				after: function () {
+				  $('.events').append("<li>after event fired.</li>");
+				}
+			  });
+		
+			});
+		 </script>
+	<!-- //responsiveslider -->
+	<!-- stats -->
+<script type="text/javascript" src="js/numscroller-1.0.js"></script>
+<!-- //stats -->
+<!-- /js for banner -->
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+<!-- smooth scrolling -->
+<script src="js/SmoothScroll.min.js"></script>
+<!-- //smooth scrolling -->
+<!-- smooth-scrolling-of-move-up -->
+<script type="text/javascript">
+	$(document).ready(function() {
+		/*
+		var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear' 
+		};
+		*/
+		
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		
+	});
+</script>
+<!-- //smooth-scrolling-of-move-up -->  
+<!-- video-js -->
+<script src="js/jquery.vide.min.js"></script>
+<!-- //video-js -->
+<!--gallery-js -->
+<script src="js/jquery.picEyes.js"></script>
+				<script>
+					$(function(){
+						//picturesEyes($('.demo li'));
+						$('.demo li').picEyes();
+					});
+				</script>
+<!--//gallery-js -->
+<!-- //js files -->
+
+</body>
+</html>
