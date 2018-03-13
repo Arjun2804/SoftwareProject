@@ -29,15 +29,20 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
     function validate()
     {
         var cre = document.myform.card.value;
-        var date = document.myform.exp.value;
         var cv = document.myform.cvv.value;
-        if( cre.length != 16)
+        if(/^\d{16}$/.test(cre))
         {
+		}
+		else
+		{
             alert("Please Enter a Valid Card Number ");
             return false;
         }
-        if( cv.length != 3)
+        if(/^\d{3}$/.test(cv))
         {
+		}
+		else
+		{
             alert("Please Enter a Valid CVV ");
             return false;
         }
@@ -78,18 +83,18 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<form class="sign-up" method="POST" name="myform" onsubmit="return validate()">
 						<h1 class="sign-up-title">Enter Card Details</h1>
 						<input type="text" class="sign-up-input" name="card"placeholder="Enter Card Number" autofocus required>
-						<h1>Expiry Date:</h1>
+						<h4>Expiry Date:</h4>
 					<br>	Month
 						<select>
-							<option value="1">1</option>
-							<option value="2">2</option>
-							<option value="3">3</option>
-							<option value="4">4</option>
-							<option value="5">5</option>
-							<option value="6">6</option>
-							<option value="7">7</option>
-							<option value="8">8</option>
-							<option value="9">9</option>
+							<option value="1">01</option>
+							<option value="2">02</option>
+							<option value="3">03</option>
+							<option value="4">04</option>
+							<option value="5">05</option>
+							<option value="6">06</option>
+							<option value="7">07</option>
+							<option value="8">08</option>
+							<option value="9">09</option>
 							<option value="10">10</option>
 							<option value="11">11</option>
 							<option value="12">12</option>
@@ -125,8 +130,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
              
                         <br>	<input type="password" class="sign-up-input" name="cvv" placeholder="Enter CVV "autofocus required>
 				
-					<br>	<a href="http://ksba.com/signin"><input type="submit" value="SUBMIT" class="sign-up-button"></a>
-				        <BR><br><h1>Disclaimer:</h1> Non-Credit Card users please visit KSBA Bank.	
+					<br>	<a href="http://ksba.com/signin"><input type="submit" value="NEXT" class="sign-up-button"></a>
+				        <BR><br><h1>Disclaimer:</h1> Non-Card users please visit KSBA Bank.	
 					  </form>
                                         
 				<div class="callbacks_container">
